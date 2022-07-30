@@ -21,6 +21,8 @@ import { GiPlantRoots } from "react-icons/gi";
 import { MdOutlineCancel } from "react-icons/md";
 import Herb from "./pages/Herb";
 import Home from "./pages/Home";
+import Home2 from "./pages/Home2";
+import Home3 from "./pages/Home3";
 // import Home from "./pages/Sticky";
 
 function App() {
@@ -32,7 +34,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/herb" element={<Herb />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home3 />} />
       </Routes>
     </BrowserRouter>
   );
