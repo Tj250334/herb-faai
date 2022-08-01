@@ -23,6 +23,7 @@ import Herb from "./pages/Herb";
 import Home from "./pages/Home";
 import Home2 from "./pages/Home2";
 import Home3 from "./pages/Home3";
+import Database from "./pages/Database";
 // import Home from "./pages/Sticky";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       <Routes>
         <Route path="/herb" element={<Herb />} />
         <Route path="/" element={<Home3 />} />
+        <Route path="/db" element={<Database />} />
       </Routes>
     </BrowserRouter>
   );
