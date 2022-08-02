@@ -24,6 +24,7 @@ import Home from "./pages/Home";
 import Home2 from "./pages/Home2";
 import Home3 from "./pages/Home3";
 import Database from "./pages/Database";
+import Section from "./pages/Section";
 // import Home from "./pages/Sticky";
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Route path="/herb" element={<Herb />} />
         <Route path="/" element={<Home3 />} />
         <Route path="/db" element={<Database />} />
+        <Route path="/section" element={<Section />} />
       </Routes>
     </BrowserRouter>
   );
