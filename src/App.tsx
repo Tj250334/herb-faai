@@ -28,7 +28,7 @@ import Section from "./pages/Section";
 // import Home from "./pages/Sticky";
 
 function App() {
-  const activeMenu = useAppSelector((state) => state.termStored.activeMenu);
+  // const activeMenu = useAppSelector((state) => state.termStored.activeMenu);
   const dispatch = useAppDispatch();
 
   const currentMode = "Light";

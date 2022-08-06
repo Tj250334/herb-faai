@@ -3,7 +3,7 @@ import { BsTelephone } from "react-icons/bs";
 import image1 from "../images/img1.svg";
 const Section = () => {
   return (
-    <div className=" max-w-3xl mx-auto">
+    <div className=" border py-40 max-w-3xl mx-auto">
       <div className="flex items-center justify-center">
         <div>
           <h1 className="text-xl font-bold text-slate-900 uppercase tracking-wide">
