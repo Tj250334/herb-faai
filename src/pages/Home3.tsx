@@ -8,15 +8,18 @@ import { RiHome3Fill } from "react-icons/ri";
 import "./mystyle.css";
 import Section from "./Section";
 import Icon from "../images/pharm-icon.svg";
+import Database1 from "./Database1";
+import Ann from "./Ann";
+import Thaiherb from "./Thaiherb";
 const Home3 = () => {
   return (
     <div className="dark">
-      <div className=" border border-black px-4 sm:px-6 md:px-8 bg-white dark:bg-[#0B1120]">
+      <div className="   px-4 sm:px-6 md:px-8 bg-white dark:bg-[#0B1120]">
         {/* image bg */}
         <div className="absolute inset-0  bg-cover bg-img overflow-y-scroll "></div>
 
         {/* Nav bar */}
-        <div className=" border pt-6 lg:pt-8 flex items-center justify-between text-slate-700 font-semibold text-sm leading-6 dark:text-slate-200">
+        <div className="  pt-6 lg:pt-8 flex items-center justify-between text-slate-700 font-semibold text-sm leading-6 dark:text-slate-200">
           <div className="flex items-center space-x-2">
             <img
               src={Icon}
@@ -166,7 +169,7 @@ const Home3 = () => {
         </div>
 
         {/* Hero section */}
-        <div className=" border max-w-5xl mx-auto py-20 sm:pt-24 lg:pt-32">
+        <div className="  max-w-5xl mx-auto py-20 sm:pt-24 lg:pt-32">
           <h1 className="text-slate-900 font-extrabold text-2xl sm:text-4xl lg:text-5xl text-center dark:text-white">
             Herbal Information Services
           </h1>
@@ -251,8 +254,11 @@ const Home3 = () => {
         </div>
 
         {/* Sevice section */}
+        <Database1 />
         {/* ThaiHerb DB */}
+        <Thaiherb />
         {/* NLP */}
+        <Ann />
         {/* Contact us */}
         <Section />
       </div>
